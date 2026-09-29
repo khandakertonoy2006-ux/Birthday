@@ -108,5 +108,15 @@ $(document).ready(function() {
         handleParticles();
         requestAnimationFrame(animate);
     }
+    const startScreen = document.getElementById("startScreen");
+    const bgMusic = document.getElementById("bgMusic");
+
+startScreen.addEventListener("click", function() {
+    bgMusic.play();
+
+    startScreen.style.display = "none";
+
+    animate();
+});
     animate();
 });

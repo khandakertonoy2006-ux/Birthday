@@ -203,3 +203,25 @@ body {
   cursor: pointer;
   z-index: 100;
 }
+
+
+#startScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #252432;
+    color: white;
+    cursor: pointer;
+}
+
+#startScreen h1 {
+    font-size: 30px;
+}
